@@ -46,3 +46,18 @@ const bikeRun = [
 ];
 
 console.log(bikeRun);
+
+
+// Inserisco la variabile prendendo come riferimento il primo elemento dell'array
+let firstarBike = bikeRun[0]
+
+bikeRun.forEach((rif)=>{
+
+    if (rif.peso < firstarBike.peso) {
+        
+        rif.peso= firstarBike.peso
+        
+    }
+    
+});
+
