@@ -51,3 +51,18 @@ let elemStats = footballTeam.map((elem) => {
 
 });
 
+elemStats = footballTeam;
+
+console.log(elemStats);
+
+let fall = footballTeam.map((elem) => {
+    
+    let {nome, falli_subiti} = elem;
+
+    let newArray = {nome, falli_subiti};
+
+    return newArray;
+
+})
+
+console.log(fall);
