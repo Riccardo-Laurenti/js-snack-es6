@@ -61,3 +61,6 @@ bikeRun.forEach((rif)=>{
     
 });
 
+console.log(firstarBike);
+
+console.log( `La bicicletta più leggera è ${firstarBike.name} con un peso di circa ${firstarBike.peso}kg`);
