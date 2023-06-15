@@ -65,4 +65,4 @@ let fall = footballTeam.map((elem) => {
 
 })
 
-console.log(fall);
+console.log(fall)
